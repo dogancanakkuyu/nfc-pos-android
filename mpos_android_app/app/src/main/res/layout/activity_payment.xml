@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/payment_actv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_black"
+    android:backgroundTint="@null"
+    tools:context="com.example.mposapp.PaymentActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttondraw"
+        android:text="Enter"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/frameAmount" />
+
+    <Button
+        android:id="@+id/hamButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/icons_menu_24"
+        android:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameAmount"
+        android:layout_width="245dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rectangular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/paymentAmount"
+            android:layout_width="90dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@android:color/transparent"
+            android:ems="10"
+            android:hint="Amount"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428" />
+
+        <TextView
+            android:id="@+id/tl_view"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="TL"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/paymentAmount"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="21dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

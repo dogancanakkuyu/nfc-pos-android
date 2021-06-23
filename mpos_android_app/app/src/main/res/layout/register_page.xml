@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_black"
+    android:backgroundTint="@null"
+    android:visibility="visible"
+    tools:context="com.example.mposapp.MainActivity">
+
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="sign up"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="@+id/signUpConfirmPassword"
+        app:layout_constraintTop_toBottomOf="@+id/signUpConfirmPassword" />
+
+    <EditText
+        android:id="@+id/signUpPassword"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpUsername" />
+
+    <EditText
+        android:id="@+id/signUpConfirmPassword"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpPassword" />
+
+    <EditText
+        android:id="@+id/signUpUsername"
+        android:layout_width="213dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:hint="Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payneerview" />
+
+    <ImageView
+        android:id="@+id/payneerview"
+        android:layout_width="347dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/payneer2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

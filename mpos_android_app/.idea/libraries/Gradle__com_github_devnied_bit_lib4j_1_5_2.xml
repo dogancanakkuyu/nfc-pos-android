@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.devnied:bit-lib4j:1.5.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.devnied/bit-lib4j/1.5.2/548b023e8bd3fce419c11da8098a274e5d04d126/bit-lib4j-1.5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.devnied/bit-lib4j/1.5.2/a0be7480600d3626bf620dc57229387f66125915/bit-lib4j-1.5.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.devnied/bit-lib4j/1.5.2/42586044d7a72aab9c813c1a6015fbfff7ce0bc5/bit-lib4j-1.5.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
